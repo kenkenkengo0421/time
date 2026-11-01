@@ -1,0 +1,10 @@
+    table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    }
+    a {
+    text-decoration: none;
+    color: black;  
+    }

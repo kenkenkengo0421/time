@@ -7,8 +7,60 @@
     <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
-    題名
+
+時間の単位を変換
     <main>
+        <pre>
+            <code>
+
+<table border="1">
+
+<tr>
+    <th>値</th>
+    <th>単位</th>
+</tr>
+
+<tr>
+    <td><input type="number" id="num" value="1" style="width: 120px;"></td><td><select id="select"><option value="ms">ms</option><option value="s">s</option><option value="min">min</option><option value="h">h</option></select></td>
+</tr></table>
+
+
+<button id="sub_btn">変換</button>
+
+
+<table border="1">
+
+<tr>
+    <th>各値</th>
+    <th>各単位</th>
+</tr>
+
+<tr>
+    <td><span id="ms"></span></td>
+    <td>ms(ミリ秒)</td>
+</tr>
+
+<tr>
+    <td><span id="s"></span></td>
+    <td>s(秒)</td>
+</tr>
+
+<tr>
+    <td><span id="min"></span></td>
+    <td>min(分)</td>
+</tr>
+
+<tr>
+    <td><span id="h"></span></td>
+    <td>h(時間)</td>
+</tr>
+
+</table>
+
+
+
+            </code>
+        </pre>
   
     </main>
 
