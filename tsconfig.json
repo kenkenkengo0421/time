@@ -1,0 +1,29 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // 環境・モジュール設定（ブラウザで直接動かすための構成）
+    "target": "esnext",
+    "module": "esnext",         
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "types": [],
+
+    // ファイルの配置場所
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // デバッグ用の出力設定
+    "sourceMap": true,               
+    "declaration": false,
+    "declarationMap": false,
+
+    // 厳格な型チェックオプション（基本に忠実な最強設定）
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,    // import / export の形式を厳格にブラウザ互換にする
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true
+  }
+}

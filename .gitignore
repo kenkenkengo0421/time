@@ -1,0 +1,6 @@
+# 1. 依存ライブラリ
+node_modules/
+
+
+# 3. TypeScriptのビルドキャッシュ
+*.tsbuildinfo
